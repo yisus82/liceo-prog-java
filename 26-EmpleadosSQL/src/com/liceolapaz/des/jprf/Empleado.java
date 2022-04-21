@@ -88,4 +88,13 @@ public class Empleado {
 	public void setDniJefe(String dniJefe) {
 		this.dniJefe = dniJefe;
 	}
+
+	@Override
+	public String toString() {
+		return "Empleado [dni=" + dni + ", nombre=" + nombre + ", primerApellido=" + primerApellido
+				+ ", segundoApellido=" + segundoApellido + ", fechaNacimiento=" + fechaNacimiento + ", salario="
+				+ salario + ", numeroDepartamento=" + numeroDepartamento + ", dniJefe=" + dniJefe + "]";
+	}
+	
+	
 }
